@@ -1,0 +1,447 @@
+/* ========================================COMMON CSS START=================================== */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+img {
+  display: inline-block;
+}
+body {
+  background: rgba(249, 250, 255, 1);
+}
+
+/* ========================================COMMON CSS END=================================== */
+
+/* ========================================NAVBAR  START=================================== */
+.navbar {
+  position: absolute;
+  /* top: 20px; */
+  width: 100%;
+  z-index: 999;
+  background: #8ef8f5;
+  border-bottom: 5px solid rgb(229, 168, 15);
+}
+.navbar .navbar-brand {
+  color: #e04a18;
+  font-family: Open Sans;
+  font-weight: 800;
+  font-size: 30px;
+}
+.navbar .navbar-brand span {
+  color: #8f07ea;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+  padding: 0;
+  color: var(--font-high-emphasis, #030404);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  color: #f31a02;
+  transition: 0.7;
+}
+
+.navbar .navbar-nav {
+  column-gap: 48px;
+}
+
+/* ========================================NAVBAR END=================================== */
+/* ========================================BANNER START=================================== */
+#banner {
+  background: #8ef8f5;
+  background: #aae2f9;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#banner .container {
+  padding: 250px 0 300px;
+}
+
+#banner .container .row .left p {
+  color: var(--font-high-emphasis, #104ffb);
+  font-family: Open Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+#banner .container .row .left h1 {
+  margin-top: 40px;
+}
+#banner .container .row .left h1 span {
+  color: var(--font-high-emphasis, #f28500);
+}
+#banner .container .row .left h2 {
+  margin-top: 40px;
+  color: var(--font-high-emphasis, #810ae9);
+  font-family: Open Sans;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+/* --------right--------- */
+#banner .container .row .right img {
+  margin-left: 100px;
+  margin-top: -30px;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  border: 4px solid rgb(19, 244, 60);
+}
+/* #banner .container {
+  background: #f5fcff;
+} */
+/* ========================================BANNER END=================================== */
+/* ========================================about start=================================== */
+.About {
+  width: 100%;
+  padding: 100px 0px;
+  background-color: #dbe2e1fe;
+}
+
+.About img {
+  height: auto;
+  width: 430px;
+  border-radius: 12px;
+}
+
+.about-text {
+  width: 550px;
+}
+
+.main {
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-text h2 {
+  color: rgb(19, 21, 31);
+  font-size: 45px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.about-text h5 {
+  color: rgb(10, 170, 173);
+  letter-spacing: 2px;
+  font-size: 22px;
+  margin-bottom: 25px;
+  text-transform: capitalize;
+}
+
+.about-text p {
+  color: rgba(7, 7, 19, 0.8);
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom: 45px;
+}
+
+button {
+  background-color: #f9004d;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 13px 30px;
+  border-radius: 30px;
+  transition: 0.4s;
+}
+
+button:hover {
+  background-color: transparent;
+  border: 2px solid #f9004d;
+  cursor: pointer;
+  background: #810ae9;
+}
+/* ========================================about END=============================================== */
+/* ========================================Computer skill start==================================== */
+#Computer_skill {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background: url(../images/computer.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#Computer_skill .container .skills {
+  width: 900px;
+  background: #82fffd;
+  padding: 30px;
+  margin: 0 auto;
+  border-radius: 14px;
+}
+
+#Computer_skill .container .skills h2 {
+  text-align: center;
+}
+#Computer_skill .container .skills .text {
+  margin: 20px 0;
+}
+#Computer_skill .container .skills .text ul {
+  display: flex;
+  justify-content: space-between;
+}
+#Computer_skill .container .skills .text ul li {
+  font-size: 26px;
+}
+#Computer_skill .container .skills .text .bar {
+  background-color: blue;
+  display: block;
+  height: 20px;
+  border: 1px solid rgb(210, 16, 81);
+  border-radius: 10px;
+  overflow: hidden;
+}
+#Computer_skill .container .skills .text .bar:hover {
+  background-color: blue;
+}
+
+#Computer_skill .bar span {
+  height: 20px;
+  float: left;
+  background: #0ee435;
+}
+
+#Computer_skill .html {
+  width: 98%;
+  animation: html 3s;
+}
+#Computer_skill .css {
+  width: 90%;
+  animation: css 3s;
+}
+#Computer_skill .javascript {
+  width: 75%;
+  animation: javascript 3s;
+}
+#Computer_skill .bootstrap {
+  width: 90%;
+  animation: javascript 3s;
+}
+#Computer_skill .jQuery {
+  width: 75%;
+  animation: javascript 3s;
+}
+#Computer_skill .React {
+  width: 88%;
+  animation: javascript 3s;
+}
+#Computer_skill .Tailwind {
+  width: 89%;
+  animation: javascript 3s;
+}
+#Computer_skill .API {
+  width: 75%;
+  animation: javascript 3s;
+}
+#Computer_skill .Firebase {
+  width: 70%;
+  animation: javascript 3s;
+}
+#Computer_skill .Photoshop {
+  width: 78%;
+  animation: javascript 3s;
+}
+
+@keyframes html {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 98%;
+  }
+}
+@keyframes css {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+@keyframes javascript {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 75%;
+  }
+}
+@keyframes bootstrap {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+@keyframes jQuery {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 75%;
+  }
+}
+@keyframes React {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 88%;
+  }
+}
+@keyframes Tailwind {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 89%;
+  }
+}
+@keyframes API {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 75%;
+  }
+}
+@keyframes Firebase {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+@keyframes Photoshop {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 78%;
+  }
+}
+
+/* ========================================Computer skill END=========================================== */
+
+/* ========================================My project start=================================== */
+#project {
+  background: url(../images/project_banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#project .container {
+  padding-top: 120px;
+  padding-bottom: 150px;
+}
+#project .container .top h2 {
+  color: var(--font-high-emphasis, #f5f6f4);
+  font-family: Open Sans;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 900;
+  text-align: center;
+  border-bottom: 5px solid rgb(225, 155, 6);
+}
+#project .container .top span {
+  color: var(--font-high-emphasis, #4cff10);
+}
+
+#project .container .bottom {
+  margin-top: 40px;
+}
+
+#project .container .bottom .row {
+  row-gap: 24px;
+}
+
+#project .container .bottom .row .card {
+  width: 420px !important;
+}
+
+#project .container .bottom .card {
+  transition: all linear 0.4s;
+}
+#project .container .bottom .card:hover {
+  transform: scale(1.1);
+}
+#project .container .bottom .row .card img {
+  height: 260px;
+}
+
+#project .container .bottom .row .card .card-body {
+  background: rgb(171, 248, 255);
+  text-align: center;
+}
+
+/* ========================================My project END=================================== */
+/* ========================================CONTACTS start=================================== */
+#contact {
+  padding-top: 150px;
+  background: url(../images/fbanner.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#contact h2 {
+  color: white;
+  text-align: center;
+  border-bottom: 2px solid red;
+  font-size: 50px;
+}
+#contact .text {
+  color: white;
+  margin: 0 auto;
+}
+#contact .text h3 {
+  margin-top: 20px;
+  font-size: 26px;
+  text-align: center;
+}
+
+#contact .row {
+  text-align: center;
+}
+#contact .row i {
+  color: rgb(236, 232, 232);
+  font-size: 40px;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+#contact a {
+  transition: all linear 0.4s;
+}
+#contact a:hover {
+  transform: scale(1.2);
+}
+.footer img {
+  width: 100%;
+  height: 150px;
+}
+/* ========================================CONTACTS END=================================== */

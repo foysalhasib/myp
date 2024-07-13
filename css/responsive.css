@@ -1,0 +1,219 @@
+@media (min-width: 320px) and (max-width: 575.98px) {
+/* ========================================NAVBAR END=================================== */
+.navbar{
+	padding: 0px;
+}
+.navbar-toggler  .fa-solid.fa-bars {
+        color: blue;
+}
+.navbar .navbar-brand {
+	font-size: 20px;
+}
+.navbar-toggler {
+    border: 0;
+}
+.navbar-toggler:focus {
+        box-shadow: none;
+}
+
+.navbar .navbar-nav {
+	column-gap: 54px;
+	row-gap: 10px;
+	background: #7e9a0b;
+	padding: 12px;
+	text-align: center;
+	border-radius: 10px;
+}
+/* ========================================NAVBAR end=================================== */
+/* ========================================banner start=================================== */
+#banner{
+	background: #8ef8f5;
+	background: url(../images/mobile.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+  }
+
+#banner .container {
+	padding: 140px 0 90px;
+}
+
+#banner .container .left {
+	text-align: center;
+}
+
+#banner .container .row .left h1 {
+	margin-top: 16px;
+}
+
+#banner .container .row .left h2 {
+	margin-top: 4px;	
+	font-size: 15px;	
+}
+
+.newslatter form {
+	margin-top: 15px;
+	width: 269px;
+	margin: 0 auto;
+}
+
+.newslatter form input:last-child {
+	padding: 2px 7px;
+	border-radius: 18px;
+	top: 6px;
+	right: 6px;
+}
+.newslatter form input:first-child {
+	display: inline-block;
+	width: 100%;
+	padding: 8px 130px 4px 14px;
+	border: 2px solid #f9004d;
+	outline: none;
+	border-radius: 30px;
+}
+
+#banner .right {
+	margin-top: 20px;
+	text-align: center;
+}
+#banner .container .row .right img {
+	height: 200px;
+	width: 200px;
+	margin: 0 auto;
+}
+
+/* ========================================banner end=================================== */
+/* ========================================about start=================================== */
+.About {
+	padding: 60px 0px;
+	
+}
+.main {
+	display: flex;
+	flex-direction: column;
+}
+
+.About img {
+	width: 300px;
+	margin: 0px auto;
+}
+
+.about-text {
+	width: auto;
+	text-align: center;
+	padding: 16px;
+}
+
+.about-text h2 {
+	font-size: 33px;
+    border-bottom: 4px solid red;
+	margin-top: 20px;
+}
+
+.about-text h5 {
+	font-size: 20px;
+}
+.about-text p {
+	font-size: 14px;
+}
+
+
+/* ========================================about end=================================== */
+/* ========================================Computer skill start========================= */
+#Computer_skill {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+
+#Computer_skill .container .skills {
+	width: auto;
+	padding: 20px;
+	border-radius: 10px;
+}
+#Computer_skill .container .skills .text ul li {
+	font-size: 12px;
+}
+
+#Computer_skill .bar span {
+	height: 12px;
+}
+#Computer_skill .container .skills .text .bar {
+	height: 12px;
+}
+#Computer_skill .container .skills {
+	padding: 10px;
+	
+}
+
+
+/* ========================================Computer skill end========================= */
+
+
+/* ========================================project start================================ */
+#project .container {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+#project .container .top h2 {
+	font-size: 30px;
+}
+
+#project .container .bottom .row .main {
+	width: auto !important;
+}
+
+#project .container .bottom .row .main img {
+	height: 135px;
+}
+#project .container .bottom .row .main .card-body {
+	padding: 4px !important;
+} 
+
+/* ========================================project end=================================== */
+/* ========================================Contact start================================= */
+#contact {
+	padding-top: 60px;
+
+}
+
+#contact h2 {
+	font-size: 40px;
+}
+
+#contact .text h3 {
+	margin-top: 8px;
+	font-size: 16px;
+}
+
+#contact .row i {
+	font-size: 26px;
+	margin-left: 18px;
+	margin-top: 30px;
+}
+
+.footer img {
+	width: 100%;
+	height: 60px;
+}
+
+
+
+/* ========================================Contact end=================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ }
